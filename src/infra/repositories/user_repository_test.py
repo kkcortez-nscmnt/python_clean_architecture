@@ -33,7 +33,7 @@ def test_insert_user():
 
 
 def test_select_user():
-    """Deve selecionar um usuario em Users e compara-lo"""
+    """Deve selecionar um usuario em user e compara-lo"""
 
     user_id = faker.random_number(digits=5)
     name = faker.name()
